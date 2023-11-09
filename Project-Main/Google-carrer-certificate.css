@@ -1,0 +1,178 @@
+#Hello{
+    font-size: 100px;
+    font-family: "Google Sans", Roboto, Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+    font-weight: 500;
+    }
+    #para2{
+        display: flex;
+        margin: auto;
+        justify-content:space-around;
+    }
+    #para2 > div > h2{
+        font-size: 40px;
+        line-height: 60px;
+        font-weight: 400;
+        padding-top: 100px;
+    }
+    #para2 > div > p{
+        font-size: 25px;
+    
+    }
+    #para2 > div > ul > li > span{
+        font-size: 25px;
+        line-height: 40px;
+        color: black;
+    }
+    #para2 > div > ul > li{
+        color: rgb(112, 112, 216);
+        font-size: 27px;
+    }
+
+
+    /* navbar */
+#navbar {
+            display: flex;
+            width: 100%;
+            justify-content: flex-start;
+            /* border: 1px solid black; */
+            height: 40px;
+            box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+
+            padding: 16px;
+            position:sticky; top: 0;
+        }
+
+        #navbar>div {
+            margin-right: 2%;
+            margin-top: auto;
+            padding-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        .anchor {
+            text-decoration: none;
+            font-weight: 500;
+            font-family: sans-serif;
+            font-size: 18px;
+            line-height: 50px;
+            color: #5f6368;
+        }
+        .g{
+            color: blue;
+        }
+        .o{
+            color: red;
+        }
+        .yellow{
+            color:yellow;
+        }
+        .green{
+            color: green;
+        }
+        *{
+            font-family: "Google Sans", Roboto, Arial, Helvetica, sans-serif;
+        }
+        /* navbar */
+
+
+        .cont{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            row-gap: 50px;
+            column-gap: 50px;
+            /* margin: auto; */
+            justify-content: space-between;
+        }
+        .cont > .child1{
+            /* border: 1px solid black; */
+            width: 60%;
+            padding: 25px;
+            margin-left: 150px;
+            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+        }
+        .child2{
+            margin-left: 250px;
+
+        }
+        .child3 > h1{
+            font-size: 40px;
+        }
+        .child3 > p{
+            font-size: 25px;
+            color: #5f6368;
+        }
+        .child3 > a > button{
+            background-color: blue;
+            border-radius: 22px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .child3 > a > button span{
+            font-size: 20px;
+        }
+
+
+        .aaa{
+            display: flex;
+            width: 60%;
+            margin-left: 100px;
+            justify-content: space-evenly;
+        }
+        .aaa > div > img{
+            height:80px;
+        }
+
+        .big{
+            display: block;
+            height: 1000px;
+            background-color: rgb(182, 221, 206);
+
+        }
+        .big > div > h1{
+            font-size: 100px;
+            text-align: center;
+            font-weight: 500;
+        }
+        .big > div > p{
+            font-size: 40px;
+            text-align: center;
+        }
+        .big > div > a > button > span{
+            font-size: 45px;
+            line-height: 80px;
+        }
+        .big > div > a > button {
+            border-radius: 40px;
+            background-color: rgb(182, 221, 206);
+        }
+        #cent{
+            margin-left: 38%;
+        }
+
+        #footer{
+            display: flex;
+            width: 100%;
+            justify-content: flex-start;
+            /* border: 1px solid black; */
+            height: 50px;
+
+            padding: 16px;
+        }
+
+        #footer>div {
+            margin-right: 2%;
+            margin-top: auto;
+            padding-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        #footer >  .anchor{
+            text-decoration: none;
+            font-weight: 700;
+            font-family: sans-serif;
+            font-size: 16px;
+            line-height: 60px;
+            color: #5f6368;
+        }
